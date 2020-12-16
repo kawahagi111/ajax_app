@@ -21,6 +21,7 @@ function check() {
                   post.setAttribute("data-check", "true");
                 } else if (item.checked === false) {
                   post.removeAttribute("data-check");
+                }
               };            
         });
     });
